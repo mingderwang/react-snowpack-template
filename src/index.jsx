@@ -2,11 +2,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App.jsx";
-import Home from "./Home.jsx";
+import Typography from "./Typography.jsx";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Home />
+    <Typography />
   </React.StrictMode>,
   document.getElementById("root")
 );
