@@ -1,4 +1,6 @@
 {
+  "version": "v0.0.1",
+  "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
