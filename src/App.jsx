@@ -11,9 +11,9 @@ function App() {
   // Return the App component.
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="">
         <p>
-          Page has been open for <code>{count}</code> seconds.
+          Page has been open for <code>{count} seconds🎈</code>
         </p>
       </header>
     </div>
