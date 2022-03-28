@@ -3,8 +3,11 @@ module.exports = {
   purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
 
   content: [],
+  daisyui: {
+    themes: ["cyberpunk", "dark", "light"],
+  },
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
