@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Typography from "./Typography.jsx";
 
 function App() {
   // Create the count state.
@@ -10,12 +11,14 @@ function App() {
   }, [count, setCount]);
   // Return the App component.
   return (
-    <div className="App">
-      <header className="">
-        <p>
-          Page has been open for <code>{count} seconds🎈</code>
-        </p>
-      </header>
+    <div className="min-h-screen bg-gray-50 py-8 flex flex-col justify-center relative overflow-hidden lg:py-12">
+      <img
+        src="https://cdn.lorem.space/images/fashion/.cache/1000x800/wesley-tingey-3mGnYRUNIck-unsplash.jpg"
+        alt=""
+        className="fixed top-48 left-1/2 -translate-x-2/3 -translate-y-1/2 max-w-none"
+        width="2308"
+      />
+      <Typography />
     </div>
   );
 }

@@ -1,22 +1,16 @@
 import React from "react";
 export default function Typography() {
   return (
-    <div className="min-h-screen bg-gray-50 py-8 flex flex-col justify-center relative overflow-hidden lg:py-12">
-      <img
-        src="/img/beams.jpg"
-        alt=""
-        className="fixed top-48 left-1/2 -translate-x-2/3 -translate-y-1/2 max-w-none"
-        width="1308"
-      />
+    <>
       <div className="absolute inset-0 bg-[url(/img/grid.svg)] bg-top [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
       <div className="relative w-full px-6 py-12 bg-white shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5 md:max-w-3xl md:mx-auto lg:max-w-4xl lg:pt-16 lg:pb-28">
         <div className="max-w-prose mx-auto lg:text-lg">
           <svg className="h-6" fill="none" viewBox="0 0 297 24">
             <path
               className="fill-sky-400"
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M19.418.523c-5.178 0-8.415 2.589-9.71 7.767 1.943-2.59 4.208-3.56 6.797-2.913 1.477.37 2.533 1.44 3.702 2.627 1.903 1.933 4.107 4.17 8.92 4.17 5.178 0 8.414-2.59 9.708-7.768-1.941 2.59-4.207 3.56-6.796 2.913-1.477-.37-2.533-1.441-3.702-2.628C26.434 2.76 24.23.523 19.417.523zm-9.71 11.65c-5.177 0-8.413 2.59-9.708 7.767 1.942-2.589 4.207-3.56 6.796-2.913 1.477.37 2.533 1.441 3.702 2.628 1.904 1.932 4.107 4.169 8.92 4.169 5.178 0 8.414-2.59 9.709-7.767-1.942 2.589-4.208 3.56-6.797 2.912-1.477-.369-2.533-1.44-3.701-2.627-1.904-1.932-4.108-4.169-8.92-4.169z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
             <path
               className="fill-slate-900"
@@ -447,6 +441,6 @@ export default function Typography() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
